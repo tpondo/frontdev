@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Language" content="pl" />
+    <meta name="description" content="wpis na temat bloga" />
+    <meta name="keywords" content="slowa kluczowe" />
+    <meta name="application-name" content="fajny blog">
+    <meta name="msapplication-tooltip" content="blog o frontendzie">
+    <meta name="msapplication-starturl" content="http://example.net">
+    <meta property="og:title" content="Blogowanie | Tomasz Pondo">
+    <meta property="og:url" content="https://example.net">
+    <link rel="stylesheet" href="css here">
+
+    <title>Blogowanie | Tomasz Pondo</title>
+</head>
+
+<body>
+
+    <header id="naglowek">
+
+        <nav id="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+            <ul>
+                <li>
+                    <a href="lorem1.html">lorem 1</a>
+                </li>
+                <li>
+                    <a href="lorem2.html">lorem 2</a>
+                </li>
+                <li>
+                    <a href="lorem3.html">lorem 3</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="tresc" itemprop="mainEntityOfPage">
+        <article id="tytul-wpisu" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <header>
+                <h1 class="post-name" itemprop="headline">Frontend</h1>
+                <p class="post-info"> Opublikowano
+                    <time datetime="2018-03-09T17:40:06+01:00">09.03.2018</time> przez
+                    <a href="https://example.net/author" itemscope itemtype="http://schema.org/Person" rel="author">
+                        <span itemprop="name">T.Pondo</span>
+                    </a>
+                </p>
+            </header>
+            <div class="e-content" itemprop="articleBody">
+                <figure itemprop="image">
+                    <picture>
+                        <source srcset="img/wide-image.jpeg" media="(min-width: 1024px)">
+                        <img src="img/small-image.jpeg" alt="alternatywny tekst">
+                    </picture>
+                    <figcaption> opis obrazka </figcaption>
+                </figure>
+                <p>lorem ipsum</p>
+                <h3 id="podtytul">Od czego zacząć naukę?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu justo enim, ac faucibus massa. Vestibulum
+                    in elit aliquam purus sollicitudin adipiscing ac et sapien. Curabitur eleifend justo diam, et viverra
+                    nisi. Quisque a ipsum vehicula nunc vestibulum posuere. Suspendisse potenti. Vestibulum ante ipsum primis
+                    in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum porttitor, neque eu congue fermentum,
+                    velit ante pellentesque arcu, a posuere risus tortor vel ante. Donec et neque at odio hendrerit mattis
+                    sed eu tellus. Nullam accumsan leo ut felis suscipit vehicula posuere erat eleifend. Donec semper lorem
+                    eu nibh tincidunt varius</p>
+                <p>Quisque a ipsum vehicula nunc vestibulum posuere. Suspendisse potenti. Vestibulum ante ipsum primis
+                    in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum porttitor, neque eu congue fermentum,
+                    velit ante pellentesque arcu, a posuere risus tortor vel ante. Donec et neque at odio hendrerit mattis
+                    sed eu tellus. Nullam accumsan leo ut felis suscipit vehicula posuere erat eleifend. Donec semper lorem
+                    eu nibh tincidunt varius</p>
+                <p>Nullam accumsan leo ut felis suscipit vehicula posuere erat eleifend. Donec semper lorem
+                    eu nibh tincidunt varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu justo enim, ac faucibus massa. Vestibulum
+                    in elit aliquam purus sollicitudin adipiscing ac et sapien. Curabitur eleifend justo diam, et viverra
+                    nisi</p>
+                <p>Quisque a ipsum vehicula nunc vestibulum posuere. Suspendisse potenti. Vestibulum ante ipsum primis
+                    in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum porttitor, neque eu congue fermentum,
+                    velit ante pellentesque arcu, a posuere risus tortor vel ante. Donec et neque at odio hendrerit mattis
+                    sed eu tellus. Nullam accumsan leo ut felis suscipit vehicula posuere erat eleifend. Donec semper lorem
+                    eu nibh tincidunt varius</p>
+            </div>
+
+            <form action="The URL of a program that processes the form information" method="post" id="kontakt">
+                <h3>Wyślij do mnie maila ;)</h3>
+                <p>
+                    <label for="email-subject">Temat</label>
+                    <input type="text" name="temat" id="email-subject" required aria-required="true">
+                </p>
+                <p>
+                    <label for="email-adress">E-mail</label>
+                    <input type="email" name="email" id="email-adress" required aria-required="true">
+                </p>
+                <p>
+                    <label for="email-content">Wiadomość</label>
+                    <textarea name="content" id="email-content" cols="48" rows="7" required aria-required="true"></textarea>
+                </p>
+                <p>
+                    <button name="submit" type="submit" id="email-submit">Wyślij</button>
+                </p>
+               
+            </form>
+
+        </article>
+    </main>
+
+    <footer id="stopka">Copyright © 2018 by
+        <a href="https://example.net/author" rel="author">T.PONDO</a>
+    </footer>
+
+
+    <script src="scripts here"></script>
+</body>
+
+</html>
